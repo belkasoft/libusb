@@ -40,7 +40,7 @@
     <RootNamespace>libusbdll</RootNamespace>
     <WindowsSDKDesktopARMSupport>true</WindowsSDKDesktopARMSupport>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">
@@ -59,7 +59,7 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
     <IntDir>$(ProjectDir)..\$(Platform)\$(Configuration)\dll\$(TargetName)\</IntDir>
-    <OutDir>$(ProjectDir)..\$(Platform)\$(Configuration)\dll\</OutDir>
+    <OutDir>$(SolutionDir)Debug\$(PlatformTarget)\</OutDir>
     <TargetName>libusb-1.0</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup>
