@@ -67,6 +67,9 @@
     <IntDir>$(ProjectDir)..\$(Platform)\$(Configuration)\dll\$(TargetName)\</IntDir>
     <TargetName>libusb-1.0</TargetName>
   </PropertyGroup>
+  <PropertyGroup Label="Vcpkg">
+    <VcpkgEnabled>false</VcpkgEnabled>
+  </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
